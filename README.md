@@ -1,14 +1,33 @@
 
-OBJETIVO:
-Este projeto permite ao usuário inserir o nome e a idade de uma pessoa. Essas informações são salvas na memória e podem ser acessadas posteriormente.Exibe uma lista das pessoas cadastradas, com seus nomes e idades e utiliza o Flask para renderizar as páginas HTML e proporcionar uma interação fácil e amigável via navegador.
+# Cadastro de Pessoas com Flask
 
-DESCRIÇÃO:
-- **static/**: Contém arquivos estáticos e  utilizado para estilizar as páginas web.
-- **templates/**: Contém os arquivos HTML. O Flask renderiza esses arquivos para exibir as informações no navegador.
-- **função.py**: Contém as funções de backend, que gerenciam o fluxo de dados.
-- **sistema.py**: Arquivo responsável por inicializar o servidor Flask, definir as rotas da aplicação e renderizar as páginas HTML.
+Este projeto permite ao usuário inserir o nome e a idade de uma pessoa, armazenar essas informações na memória e exibi-las em uma lista. Ele utiliza o framework Flask para criar a interface web e gerenciar os dados.
 
-PRÉ-REQUISITOS:
-- Para rodar este projeto localmente, você precisará ter o **Python** e o **Flask** instalados em sua máquina. Se você ainda não os tem instalados.
-- Após ter o Flask instalado e estar no diretório do projeto, execute o arquivo sistema.py para iniciar o servidor Flask localmente através do comando python sistema.py
-- Com o servidor em execução, abra seu navegador e acesse a seguinte URLhttp://127.0.0.1:5000/
+## Funcionalidades
+
+* **Cadastro de Pessoas:** Permite inserir o nome e a idade de uma pessoa através de um formulário.
+* **Listagem de Pessoas:** Exibe uma lista com o nome e a idade de todas as pessoas cadastradas.
+
+## Tecnologias Utilizadas
+
+* **Python:** Linguagem de programação principal.
+* **Flask:** Framework web para criação da interface e gerenciamento das rotas.
+* **HTML:** Linguagem de marcação para estruturar as páginas web.
+* **CSS:** Linguagem de estilo para estilizar as páginas web.
+
+## Pré-requisitos
+
+* Python 3.x instalado.
+* Flask instalado: `pip install Flask`
+
+## Instalação
+
+1. Clone este repositório: `git clone https://github.com/seu-usuario/cadastro-pessoas-flask.git`
+2. Acesse o diretório do projeto: `cd cadastro-pessoas-flask`
+
+## Execução
+
+1. Execute o arquivo `sistema.py`: `python sistema.py`
+2. Abra o navegador e acesse `http://127.0.0.1:5000/`
+
+## Estrutura do Projeto
