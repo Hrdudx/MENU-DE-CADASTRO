@@ -1,5 +1,5 @@
 
-# Cadastro de Pessoas com Flask
+# Cadastro de Pessoas com PYTHON e Flask 
 
 Este projeto permite ao usuário inserir o nome e a idade de uma pessoa, armazenar essas informações na memória e exibi-las em uma lista. Ele utiliza o framework Flask para criar a interface web e gerenciar os dados.
 
