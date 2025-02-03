@@ -1,4 +1,3 @@
-CRIAÇÃO:25/12/2024
 
 OBJETIVO:
 Este projeto permite ao usuário inserir o nome e a idade de uma pessoa. Essas informações são salvas na memória e podem ser acessadas posteriormente.Exibe uma lista das pessoas cadastradas, com seus nomes e idades e utiliza o Flask para renderizar as páginas HTML e proporcionar uma interação fácil e amigável via navegador.
